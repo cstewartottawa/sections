@@ -1,9 +1,17 @@
 html {
- font-family: "Lato";
+  box-sizing: border-box;
+  font-family: "Lato"; sans-serif;
+  line-height: 1.5;
 }
 
 section {
-  padding: 20px;
+  background-color: #f2f2f2;
+  vertical-align: middle;
+}
+
+body {
+  margin: 0;
+
 }
 
 img {
@@ -11,9 +19,18 @@ img {
   width: 100%;
 }
 
-.btn {
+div {
+  display: inline-block;
+  max-width: 25em;
+  padding: 20px;
+}
+
+.btn-ghost {
   border-style: solid;
   border-color: #000;
   border-width: 3px;
+  border-radius: 8px;
+  padding: .5rem;
+  color: #000;
   text-decoration: none;
 }
