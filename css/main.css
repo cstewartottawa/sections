@@ -1,0 +1,19 @@
+html {
+ font-family: "Lato";
+}
+
+section {
+  padding: 20px;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+.btn {
+  border-style: solid;
+  border-color: #000;
+  border-width: 3px;
+  text-decoration: none;
+}
